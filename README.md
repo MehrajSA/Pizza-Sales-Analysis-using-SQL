@@ -222,15 +222,6 @@ JOIN order_details od
 ON o.order_id = od.order_id
 group by o.order_date
 )t; 
-## 🚀 Key Learnings
-
-Through this project, I gained hands-on experience in:
-
-* Writing complex SQL queries
-* Data cleaning and transformation
-* Business-oriented data analysis
-* Query optimization techniques
-* Converting raw data into actionable insights
 
 TASK: The distribution of orders by hour of the day.
 Select
@@ -241,8 +232,18 @@ Group by Hour(order_time)
 Order by Hour(order_time) desc;
 ---
 
-About Me:
+## 🚀 Key Learnings
 
+Through this project, I gained hands-on experience in:
+
+* Writing complex SQL queries
+* Data cleaning and transformation
+* Business-oriented data analysis
+* Query optimization techniques
+* Converting raw data into actionable insights
+
+
+About Me:
 Mehraj Sultana A
 Executive MBA in Business Intelligence & Analytics
 Business Analyst 
